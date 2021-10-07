@@ -1,0 +1,51 @@
+@import "config";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: $color-theme;
+}
+// 超出一行隐藏
+.txt-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+// 超出二行隐藏
+.txt-overflow2 {
+  word-break:break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /* autoprefixer: on */
+}
+
+// 超出三行隐藏
+.txt-overflow3 {
+  word-break:break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  /* autoprefixer: on */
+}
+
+// 超出四行隐藏
+.txt-overflow4 {
+  word-break:break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  /* autoprefixer: on */
+}

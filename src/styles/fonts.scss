@@ -1,0 +1,12 @@
+$path: '../assets/fonts/';
+
+@font-face {
+  font-family: 'webfont';
+  font-display: swap;
+  src: url($path + 'webfont.eot'); /* IE9 */
+  src: url($path + 'webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url($path + 'webfont.woff2') format('woff2'),
+  url($path + 'webfont.woff') format('woff'), /* chrome、firefox */
+  url($path + 'webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url($path + 'webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}

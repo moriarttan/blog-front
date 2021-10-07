@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+
+<svg>
+<metadata>
+Created by webfont
+</metadata>
+<defs>
+
+<font id="PangMenZhengDao" horiz-adv-x="1057" vert-adv-y="1057" >
+  <font-face
+    
+    font-family="PangMenZhengDao"
+    
+    font-weight="400"
+    
+    font-stretch="normal"
+    
+    units-per-em="1000"
+    
+    ascent="859"
+    
+    descent="-141"
+    
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="uni4ED9" unicode="&#x4ED9;" d="M455 644L455 94L534 94L534 725L673 725L673 94L736 94Q744 94 750 100Q756 106 756 114L756 643L891 643L891 71Q891 39 869.50 17.50Q848-4 816-4L316-4L316 7L316 94L316 644L455 644M276 713L208 572L256 572L256-4L132-4L132 472L28 472L144 713L276 713Z"  horiz-adv-x="920" vert-adv-y="1000"  />
+
+    
+    <glyph glyph-name="uni62" unicode="&#x62;" d="M199 487L317 487Q395 487 444 463Q511 430 541 362Q562 311 562 250Q562 102 455 36Q421 15 385 7.50Q349 0 283 0L65 0L65 667L199 667L199 487M199 383L199 104L298 104Q361 104 393 143Q425 185 425 246Q425 383 298 383L199 383Z"  horiz-adv-x="596" vert-adv-y="1000"  />
+
+    
+    <glyph glyph-name="uni67" unicode="&#x67;" d="M532 487L532 3Q532-38 522.50-70Q513-102 495-124Q472-152 439.50-162.50Q407-173 345-173L78-173L78-69L327-69Q371-69 384.50-55.50Q398-42 398 0L275 0Q216 0 177.50 12.50Q139 25 108 54Q35 123 35 244Q35 382 124 445Q156 468 191.50 477.50Q227 487 282 487L532 487M398 383L287 383Q171 383 171 243Q171 175 202.50 139.50Q234 104 294 104L398 104L398 383Z"  horiz-adv-x="598" vert-adv-y="1000"  />
+
+    
+    <glyph glyph-name="uni6c" unicode="&#x6c;" d="M199 0L65 0L65 667L199 667L199 0Z"  horiz-adv-x="266" vert-adv-y="1000"  />
+
+    
+    <glyph glyph-name="uni6f" unicode="&#x6f;" d="M290 494Q425 494 489 416Q548 345 548 237Q548 123 474 55Q406-7 288-7Q166-7 97 63Q33 126 33 247Q33 349 94 417Q162 493 290 494M291 392Q170 392 170 242Q170 181 190 149Q223 95 292 95Q411 95 411 244Q411 390 291 392Z"  horiz-adv-x="582" vert-adv-y="1000"  />
+
+    
+    <glyph glyph-name="uni98DE" unicode="&#x98DE;" d="M672 443L670 443L879 166L726 166L517 443L517 443L718 675L873 675L672 443M380 613L22 613L22 718L608 718L267 107L897 107L859 3L209 3L78 3L41 3L380 613Z"  horiz-adv-x="920" vert-adv-y="1000"  />
+
+    
+
+  </font>
+</defs></svg>
