@@ -5,7 +5,7 @@
         style="background-image: url(/src/assets/image/banner.jpg)"
     >
       <div class="title-container">
-        <div class="title">{{ title }}</div>
+        <span v-for="(item, index) in title" :class="{ 'show': item.show }">{{ item.text }}</span>
       </div>
     </div>
     <div class="warp">
@@ -36,18 +36,26 @@ export default {
   },
   setup() {
     const name = ref('首页')
-    const title = ref('')
+    const title = ref([])
 
     onMounted(() => {
-      const str = '上善若水。水利万物而不争，处众人之所恶，故几于道。居善地，心善渊，与善人，言善信，政善治，事善能，动善时。夫唯不争，故无尤。'
       nextTick(() => {
-        const a = setInterval(() => {
-          if (title.value.length < str.length) {
-            title.value = str.slice(0, title.value.length + 1)
+        const str = '上善若水'
+        str.split('').forEach(el => {
+          title.value.push({
+            text: el,
+            show: false
+          })
+        })
+        let index = 0
+        const intent = setInterval(() => {
+          if (index <= title.value.length) {
+           title.value[index].show = true
+            index++
           } else {
-            clearInterval(a)
+            clearInterval(index)
           }
-        }, 300)
+        },300)
       })
     })
     return {
@@ -77,12 +85,15 @@ export default {
       line-height: 1.5em;
       color: #ffffff;
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
+      align-items: center;
 
-      .title{
-        text-align: left;
-        writing-mode: vertical-rl;
+      span {
+        opacity: 0;
         transition: all 0.3s;
+      }
+      span.show {
+        opacity: 1;
       }
     }
   }
